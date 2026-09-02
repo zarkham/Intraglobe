@@ -8,7 +8,6 @@ import { EarthLeafLogo } from './earth-leaf-logo'
 const NAV_LINKS: { label: string; href: string }[] = [
   { label: 'Home', href: '/' },
   { label: 'Textiles', href: '/production' },
-  { label: 'Blog', href: '/blog' },
 ]
 
 export function SiteHeader({ activeHref = '/' }: { activeHref?: string }) {

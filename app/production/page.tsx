@@ -42,7 +42,7 @@ const PRODUCTION_STEPS = [
       'Advanced cutting techniques are employed to maximise material efficiency. Each Kurti panel is carefully cut to specification by experienced craftspeople.',
     image:
       '/images/step-04-cutting.jpg',
-    alt: 'Tailor cutting fine cloth layers for Kurti garment panels with precision scissors in an Indian atelier',
+    alt: 'Close-up of a tailor’s hands cutting a Kurti pattern piece from fabric on a wooden worktable',
   },
   {
     step: '05',
@@ -51,16 +51,16 @@ const PRODUCTION_STEPS = [
       'Expert tailors stitch each Kurti using high-density seam techniques. Quality checks occur at every stage of assembly, from neck placket to side slits.',
     image:
       '/images/step-05-sewing.jpg',
-    alt: 'Experienced tailors stitching Kurti necklines, side slits, and seams in an Indian apparel workshop',
+    alt: 'A seamstress stitching a Kurti on a sewing machine beside a sunlit window',
   },
   {
     step: '06',
-    title: 'Finishing & Hand Embroidery',
+    title: 'Finishing',
     description:
-      'Hems, seams, and hand-embroidered necklines are perfected by master artisans schooled in zardozi, chikankari, and kantha stitching.',
+      'Hems, seams, and necklines are perfected by master artisans — trimming loose threads, pressing seams flat, and giving every Kurti its final, polished shape.',
     image:
-      '/new_hero_embroidery.jpg',
-    alt: 'Master artisan hand-embroidering Chikankari and Zardozi floral details on fine Kurti fabric',
+      '/images/step-06-finishing.jpg',
+    alt: 'Artisan pressing and finishing the seams of a Kurti garment',
   },
   {
     step: '07',
@@ -68,8 +68,8 @@ const PRODUCTION_STEPS = [
     description:
       'Every completed Kurti undergoes thorough inspection. We check for seam strength, embroidery perfection, fit, and durability before release.',
     image:
-      '/new_hero_atelier.jpg',
-    alt: 'Quality inspector reviewing embroidered Kurti garments on wooden hangers and inspecting stitching precision',
+      '/images/step-07-quality.jpg',
+    alt: 'Quality inspector reviewing finished Kurti garments on wooden hangers and checking stitching precision',
   },
   {
     step: '08',
@@ -78,7 +78,7 @@ const PRODUCTION_STEPS = [
       'Garments are carefully folded and packaged in eco-friendly, recyclable materials — a final gesture of respect for the hands that shaped them.',
     image:
       '/images/step-08-packaging.jpg',
-    alt: 'Folded Kurti garments with tags being carefully packaged into eco-friendly materials for shipping',
+    alt: 'A folded Kurti neatly packaged in a kraft box with tissue paper, ready for shipping',
   },
 ]
 

@@ -32,7 +32,7 @@ export interface HeroSlide {
 const HERO_SLIDES: HeroSlide[] = [
   {
     id: 'slide-1',
-    image: '/her.png',
+    image: '/images/hero-weaving.jpg',
     tagline: 'Artisanal Weaves · Master Atelier',
     edition: 'Editorial N°01',
     headline: 'Precision in every thread.',
@@ -46,7 +46,7 @@ const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 'slide-2',
-    image: '/new_hero_embroidery.jpg',
+    image: '/images/hero-atelier.jpg',
     tagline: 'Modern Tailoring · Capsule',
     edition: 'Editorial N°02',
     headline: 'Understated luxury silhouettes.',
@@ -60,7 +60,7 @@ const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 'slide-3',
-    image: '/new_hero1.jpg',
+    image: '/images/hero-mill.jpg',
     tagline: 'Craft & Warehousing · Mill Direct',
     edition: 'Editorial N°03',
     headline: 'From loom to final seam.',
@@ -74,15 +74,15 @@ const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 'slide-4',
-    image: '/new_hero_atelier.jpg',
+    image: '/images/hero-heritage.jpg',
     tagline: 'Heritage Craft · Atelier Moodboard',
     edition: 'Editorial N°04',
     headline: 'Woven with the world.',
     highlightText: 'Woven',
     description:
       'A premier Gujarat garment manufacturer crafting quality apparel with precision stitching, verified quality control, and industrial reliability.',
-    primaryCtaText: 'Read Journal',
-    primaryCtaHref: '/blog',
+    primaryCtaText: 'See Our Work',
+    primaryCtaHref: '/production',
     secondaryCtaText: 'Get In Touch',
     secondaryCtaHref: '/contact',
   },
