@@ -1,5 +1,5 @@
+import Image from 'next/image'
 import Link from 'next/link'
-import { EarthLeafLogo } from './earth-leaf-logo'
 
 export function SiteFooter() {
   return (
@@ -7,20 +7,18 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-4">
-            <Link href="/" className="flex items-center gap-2.5">
-              <EarthLeafLogo className="h-7 w-7 text-primary" />
-              <div className="leading-none">
-                <p className="text-base font-semibold tracking-tight text-foreground">
-                  IntraGlobe
-                </p>
-                <p className="mt-0.5 text-[10px] font-medium uppercase tracking-[0.28em] text-muted-foreground">
-                  Overseas
-                </p>
-              </div>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/ig-lockup.png"
+                alt="Intraglobe Overseas LLP"
+                width={348}
+                height={214}
+                className="logo-adaptive h-auto w-[172px]"
+              />
             </Link>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-muted-foreground">
               A premier garment job-work and manufacturing facility based in
-              Vapi, Gujarat, delivering high-precision textile crafting and
+              Andheri, Mumbai, delivering high-precision textile crafting and
               volume garment production.
             </p>
           </div>
@@ -38,6 +36,11 @@ export function SiteFooter() {
               <li>
                 <Link href="/production" className="text-muted-foreground hover:text-foreground">
                   Textiles
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="text-muted-foreground hover:text-foreground">
+                  Blog
                 </Link>
               </li>
               <li>
@@ -64,7 +67,7 @@ export function SiteFooter() {
               <li>+91 98000 00000</li>
               <li>Mon–Sat, 9:00 – 18:00 IST</li>
               <li className="pt-1 text-xs">
-                Plot No. 127, Vibrant Business Park, Vapi, Gujarat 396195, India
+                Intraglobe Overseas LLP, 5A Mezzanine, First Floor, IE Andheri Kurla Road, Mumbai 400070, India
               </li>
             </ul>
           </div>
@@ -89,8 +92,8 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-border pt-8 text-xs text-muted-foreground md:flex-row md:items-center">
-          <p>© 2026 Intraglobe Overseas. All rights reserved.</p>
-          <p className="uppercase tracking-[0.25em]">Woven Responsibly · Vapi, Gujarat, India</p>
+          <p>© 2026 Intraglobe Overseas LLP. All rights reserved.</p>
+          <p className="uppercase tracking-[0.25em]">Woven Responsibly · Mumbai, India</p>
         </div>
       </div>
     </footer>

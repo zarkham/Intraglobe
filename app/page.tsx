@@ -48,7 +48,7 @@ export default function Home() {
                 {
                   n: '04',
                   title: 'Industrial Precision',
-                  body: 'Manufacturing facility in Vibrant Business Park, Vapi, Gujarat, built for scale, precision, and reliable delivery.',
+                  body: 'Operations based at IE Andheri Kurla Road, Mumbai, built for scale, precision, and reliable delivery.',
                 },
               ].map((item, idx) => (
                 <ScrollReveal

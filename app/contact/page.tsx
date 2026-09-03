@@ -65,7 +65,7 @@ export default function ContactPage() {
               </p>
             </div>
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              Garment Manufacturing Hub · Vapi, Gujarat
+              Garment Manufacturing Hub · Andheri, Mumbai
             </p>
           </div>
         </div>
@@ -200,8 +200,8 @@ export default function ContactPage() {
                 />
                 <ContactRow
                   Icon={MapPin}
-                  label="Manufacturing Facility"
-                  value="Plot No. 127, Vibrant Business Park, Vapi, Gujarat 396195, India"
+                  label="Address"
+                  value="Intraglobe Overseas LLP, 5A Mezzanine, First Floor, IE Andheri Kurla Road, Mumbai 400070, India"
                 />
               </ul>
 
