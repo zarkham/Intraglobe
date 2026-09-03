@@ -40,7 +40,7 @@ export function SiteFooter() {
               </li>
               <li>
                 <Link href="/blog" className="text-muted-foreground hover:text-foreground">
-                  Journal
+                  Blog
                 </Link>
               </li>
               <li>

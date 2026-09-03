@@ -6,7 +6,7 @@ import { SiteFooter } from '@/components/site-footer'
 import { ScrollReveal } from '@/components/scroll-reveal'
 
 export const metadata: Metadata = {
-  title: 'Journal — Intraglobe Overseas',
+  title: 'Blog — Intraglobe Overseas',
   description:
     'Notes on textile craft, garment manufacturing, and the making of Intraglobe Overseas apparel.',
 }
@@ -30,7 +30,7 @@ export default function BlogPage() {
           <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
             <div className="max-w-2xl space-y-4">
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary">
-                Journal
+                Blog
               </p>
               <h1 className="font-serif text-4xl leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
                 Notes from the <span className="text-primary">Atelier.</span>

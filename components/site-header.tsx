@@ -8,7 +8,7 @@ import { Menu, X } from 'lucide-react'
 const NAV_LINKS: { label: string; href: string }[] = [
   { label: 'Home', href: '/' },
   { label: 'Textiles', href: '/production' },
-  { label: 'Journal', href: '/blog' },
+  { label: 'Blog', href: '/blog' },
 ]
 
 export function SiteHeader({ activeHref = '/' }: { activeHref?: string }) {
