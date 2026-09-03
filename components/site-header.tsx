@@ -1,13 +1,14 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
-import { EarthLeafLogo } from './earth-leaf-logo'
 
 const NAV_LINKS: { label: string; href: string }[] = [
   { label: 'Home', href: '/' },
   { label: 'Textiles', href: '/production' },
+  { label: 'Journal', href: '/blog' },
 ]
 
 export function SiteHeader({ activeHref = '/' }: { activeHref?: string }) {
@@ -22,7 +23,14 @@ export function SiteHeader({ activeHref = '/' }: { activeHref?: string }) {
             className="group flex items-center gap-2.5 transition-transform duration-300 hover:scale-[1.02]"
             onClick={() => setMobileMenuOpen(false)}
           >
-            <EarthLeafLogo className="h-7 w-7 md:h-8 md:w-8 text-primary transition-transform duration-500 group-hover:rotate-12" />
+            <Image
+              src="/ig-mark.png"
+              alt=""
+              width={146}
+              height={146}
+              priority
+              className="logo-adaptive h-8 w-8 transition-transform duration-500 group-hover:scale-105 md:h-9 md:w-9"
+            />
             <div className="leading-none">
               <p className="text-sm md:text-base font-semibold tracking-tight text-foreground transition-colors group-hover:text-primary">
                 IntraGlobe

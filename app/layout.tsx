@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'IntraGlobe Overseas — Premier Garment Manufacturer & Job-Worker',
   description:
-    'IntraGlobe Overseas is a premier garment job-work and manufacturing facility based in Vapi, Gujarat, crafting high-precision apparel.',
+    'Intraglobe Overseas LLP is a premier garment job-work and manufacturing facility based in Andheri, Mumbai, crafting high-precision apparel.',
   generator: 'v0.app',
   icons: {
     icon: [
