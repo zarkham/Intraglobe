@@ -60,7 +60,7 @@ const PRODUCTION_STEPS = [
       'Hems, seams, and necklines are perfected by master artisans — trimming loose threads, pressing seams flat, and giving every Kurti its final, polished shape.',
     image:
       '/images/step-06-finishing.jpg',
-    alt: 'Artisan pressing and finishing the seams of a Kurti garment',
+    alt: 'Close-up of hands finishing a folded Kurti fabric panel with pins and thread nearby',
   },
   {
     step: '07',
